@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Virtual_Trade_Show">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Virtual_Trade_Show" data-name="Virtual Trade Show" clip-path="url(#clip-Virtual_Trade_Show)">
+    <circle id="Ellipse_10770" data-name="Ellipse 10770" cx="24" cy="24" r="24" fill="#ffefea"/>
+    <g id="Virtual_Trade_Show-2" data-name="Virtual Trade Show" transform="translate(15 12)">
+      <path id="Path_2202" data-name="Path 2202" d="M179.539,198.663h-8.3v-2.324a2.127,2.127,0,0,1,1.615-2.068l.3-.075a2.014,2.014,0,0,1-.184-.846v-1.66a2.42,2.42,0,1,1,4.84,0v1.665a2.008,2.008,0,0,1-.184.843l.3.075a2.127,2.127,0,0,1,1.615,2.069Zm-7.122-1.177h5.945V196.34a.951.951,0,0,0-.722-.926h0l-1.584-.4v-.81l.239-.176a.839.839,0,0,0,.338-.675v-1.664a1.245,1.245,0,1,0-2.486,0v1.66a.84.84,0,0,0,.338.675l.238.176v.813l-1.583.4a.952.952,0,0,0-.723.926Z" transform="translate(-165.922 -181.067)" fill="#f96634"/>
+      <path id="Path_2203" data-name="Path 2203" d="M87.685,35.342H68.75V31.18H87.685ZM69.927,34.166H86.508V32.357H69.927Z" transform="translate(-68.75 -31.18)" fill="#f96634"/>
+      <path id="Path_2204" data-name="Path 2204" d="M87.685,355.2H68.75V347.62H87.685Zm-17.758-1.179H86.508V348.8H69.927Z" transform="translate(-68.75 -331.201)" fill="#f96634"/>
+      <rect id="Rectangle_161" data-name="Rectangle 161" width="1.177" height="13.433" transform="translate(15.063 3.574)" fill="#f96634"/>
+      <rect id="Rectangle_162" data-name="Rectangle 162" width="1.177" height="13.433" transform="translate(2.695 3.574)" fill="#f96634"/>
+    </g>
+  </g>
+</svg>

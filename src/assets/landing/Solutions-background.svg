@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="872" viewBox="0 0 1920 872">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="gradient_header_big_4_2x" data-name="gradient header big 4@2x" width="1920" height="872" transform="translate(0 2306)" fill="#f1f5f8"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.205" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f96634"/>
+      <stop offset="1" stop-color="#f96634" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Solutions_-_background" data-name="Solutions - background" transform="translate(0 -2306)" opacity="0.9" clip-path="url(#clip-path)">
+    <path id="Path_12515" data-name="Path 12515" d="M2272,0C3526.791,0,4544,1017.209,4544,2272S3526.791,4544,2272,4544,0,3526.791,0,2272,1017.209,0,2272,0Z" transform="translate(-1312 2306)" opacity="0.2" fill="url(#linear-gradient)"/>
+    <path id="Path_12516" data-name="Path 12516" d="M2272,0C3526.791,0,4544,1017.209,4544,2272S3526.791,4544,2272,4544,0,3526.791,0,2272,1017.209,0,2272,0Z" transform="translate(-800 2472)" opacity="0.1" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

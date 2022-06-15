@@ -1,0 +1,42 @@
+<div>
+<nav class="navbar navbar-expand-lg fixed-top  header-cont" [ngClass]="isBottom ? toggleS ? 'abc' : 'bottom' : 'top'">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="../../assets/landing/vfairs-logo.svg" alt="openworx.com" class="logo" (click)="routeNav()">
+    </a>
+    <button   style="color: white;" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" (click)="clickToggleColor()" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i  id="bar" style="color: black; " [ngClass]="isBottom ? defaultStatus =='Services'? 'isActive' : 'hovered' : 'head'"  class="fa fa-bars" aria-hidden="true"></i>
+
+    </button>
+    
+    <div class="collapse header-cont abc navbar-collapse" #toggle id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2  mb-lg-0 mx-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link"  routerLink="/products" id="#navbarDropdown" [ngClass]="isBottom ? defaultStatus =='Product'? 'isActive' : 'hovered' : 'head'" role="button" data-bs-toggle="dropdown" 
+          aria-expanded="false" (click)="activeStatus('Product')"  routerLinkActive="active"> Why vFairs 
+ </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="isBottom ? defaultStatus =='Services'? 'isActive' : 'hovered' : 'head'" routerLink="/service" (click)="activeStatus('Services')"  routerLinkActive="active">Features   <i class="fa fa-chevron-down"></i></a>
+       
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="isBottom ? defaultStatus =='Customers'? 'isActive' : 'hovered' : 'head'" routerLink="/customers" (click)="activeStatus('Customers')"  routerLinkActive="active">Solutions   <i class="fa fa-chevron-down"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  [ngClass]="isBottom ? defaultStatus =='Metrics'? 'isActive' : 'hovered' : 'head'" routerLink="/metrics" (click)="activeStatus('Metrics')"  routerLinkActive="active">Customers   <i class="fa fa-chevron-down"></i></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " [ngClass]="isBottom ? defaultStatus =='Pricing'? 'isActive' : 'hovered' : 'head'"  routerLink="/pricing" (click)="activeStatus('Pricing')"  routerLinkActive="active">  Resources <i class="fa fa-chevron-down"></i>
+          </a>   
+        </li>
+          
+      </ul>
+      <button class="btn btn next my-2 mx-2 my-sm-0" (click)="routeChange()"  routerLinkActive="active" type="button">Enter into immersive website</button>
+
+
+    </div>
+  </div>
+</nav> 
+
+</div>
